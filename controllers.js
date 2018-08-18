@@ -53,7 +53,7 @@ exports.printCount = (channel) => {
 			if (count1 >= count2) return -1
 			if (count1 < count2) return 1
 		})
-		channel.send(`** ${leaderboard_string} **\n｡☆✼★━━━━━━━━━★✼☆｡\n\n ${top5.map((user, index) => (`${index+1}. **${user.username}**: ${user.count}%`)).join('')}`)
+		channel.send(`** ${leaderboard_string} **\n｡☆✼★━━━━━━━━━★✼☆｡\n\n ${top5.map((user, index) => (`${index+1}. **${user.username}**: ${user.count}%\n`)).join('')}`)
 	})
 
 }
