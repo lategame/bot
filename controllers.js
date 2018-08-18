@@ -2,11 +2,35 @@ const GayCount = require('./gaycount')
 
 exports.handleMessage = (message) => {
 	let { author, content } = message
-	let count = (content.match(/gay/gi) || []).length;
+	let count = (content.match(/gay/gi) || []).length
+	let nigger_count = (content.match(/nigger/gi) || []).length
 
 	if (count > 0 && author.id !== "480387811065987112" && author.id !== "266544331505139712" && message.content !=="!imgay") {
 		incrementGayCount(author.id, author.username, count)
 	}
+
+	if (nigger_count > 0) {
+		niggerWatch(message.channel)
+	}
+
+}
+
+niggerWatch = (channel) => {
+	let nigger_phrases = [
+		"3/5 Person",
+		"Sub-human Filth",
+		"Monkey Boi",
+		"Ape",
+		"Gorilla Man",
+		"Darkie Boi",
+		"Antique Farm Equipment",
+		"Bootlip Bumbo",
+		"Casabooboo",
+		"Jigaboo",
+	]
+
+	let rand = nigger_phrases[Math.floor(Math.random() * nigger_phrases.length)];
+	channel.send(`Excuse me, that term is very offensive. Please use a more appropriate term such as ${rand}. Thank you!`)
 
 }
 
