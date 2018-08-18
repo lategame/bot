@@ -42,6 +42,7 @@ exports.countHistory = (channel) => {
 }
 
 exports.printCount = (channel) => {
+	let leaderboard_string = "♥🌈 Gay Leaderboards 🌈♥"
 
 	GayCount.find()
 	.then(counts => {
@@ -52,16 +53,25 @@ exports.printCount = (channel) => {
 			if (count1 >= count2) return -1
 			if (count1 < count2) return 1
 		})
-
-		channel.send('Gay Leaderboards: \n' + top5.map(user => (user.username + ': ' + user.count + '\n')).join(''))
+		channel.send(`** ${leaderboard_string} **\n｡☆✼★━━━━━━━━━★✼☆｡\n\n ${top5.map((user, index) => (`${index+1}. **${user.username}**: ${user.count}%`)).join('')}`)
 	})
+
 }
 
 exports.printPersonalCount = (author, channel) => {
+	let gay_phrases = [
+		"Fabulous!!! 🌈",
+		"Yasss QUEEEN! 😍😍😍",
+		"Cummy cummy in my tummy!! 🍆👅💦💦💦 YUMMY YUMMY",
+		"Anal Astronaut 🌈👨‍🚀",
+	]
+
+	let rand = gay_phrases[Math.floor(Math.random() * gay_phrases.length)];
+
 	GayCount.findOne({"user_id": author})
 	.then(user => {
 		if (user !== null) {
-			channel.send(`Gay count for ${user.username} is ${user.count}`)
+			channel.send(`${user.username} is ${user.count}% gay!! ${rand}`)
 		}
 	})
 	.catch(err => {
