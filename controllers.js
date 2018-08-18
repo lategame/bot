@@ -4,7 +4,7 @@ exports.handleMessage = (message) => {
 	let { author, content } = message
 	let count = (content.match(/gay/gi) || []).length;
 
-	if (count > 0 && author.id !== "480387811065987112" && message.content !=="!imgay") {
+	if (count > 0 && author.id !== "480387811065987112" && author.id !== "266544331505139712" && message.content !=="!imgay") {
 		incrementGayCount(author.id, author.username, count)
 	}
 
