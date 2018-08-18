@@ -33,6 +33,7 @@ exports.printPersonalCount = (author, channel) => {
 		"Yasss QUEEEN! 😍😍😍",
 		"Cummy cummy in my tummy!! 🍆👅💦💦💦 YUMMY YUMMY",
 		"Anal Astronaut 🌈👨‍🚀",
+		"Daddy's Cummies!! 😍😍😋😋😩😩😩"
 	]
 
 	let rand = gay_phrases[Math.floor(Math.random() * gay_phrases.length)];
