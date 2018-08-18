@@ -67,6 +67,10 @@ exports.printPersonalCount = (author, channel) => {
 		if (user !== null) {
 			channel.send(`${user.username} is ${user.count}% gay!! ${rand}`)
 		}
+
+		else {
+        	channel.send(`You aren't gay at all!! You gotta type gay to get a score.`)
+        }
 	})
 	.catch(err => {
 		console.log(err)
