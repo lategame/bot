@@ -10,37 +10,6 @@ exports.handleMessage = (message) => {
 
 }
 
-exports.countHistory = (channel) => {
-	channel.fetchMessages({limit: 100})
-	.then(messages => {
-		messages.forEach(message => {
-			let { author, content } = message
-			let count = (content.match(/gay/g) || []).length;
-
-			if (count > 0) {
-				let obj = userarray.find(item => {
-					return item.user_id === author.id
-				})
-				if (obj === undefined) {
-					userarray.push({
-						user_id: author.id,
-						username: author.username,
-						count: count
-					})
-				}
-				else {
-					obj.count = obj.count + count
-				}
-			}
-
-		})
-		console.log(userarray)
-	})
-	.catch(err => {
-		console.log(err)
-	})
-}
-
 exports.printCount = (channel) => {
 	let leaderboard_string = "♥🌈 Gay Leaderboards 🌈♥"
 

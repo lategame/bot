@@ -25,10 +25,6 @@ client.on('ready', () => {
 client.on('message', message => {
 	gay_handler.handleMessage(message)
 
-	if (message.content === "!history" && message.author.username === "Alienz") {
-		gay_handler.countHistory(message.channel)
-	}
-
 	if (message.content.toLowerCase() === "!count") {
 		gay_handler.printCount(message.channel)
 	}
