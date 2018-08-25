@@ -15,25 +15,6 @@ exports.handleMessage = (message) => {
 
 }
 
-niggerWatch = (channel) => {
-	let nigger_phrases = [
-		"3/5 Person",
-		"Sub-human Filth",
-		"Monkey Boi",
-		"Ape",
-		"Gorilla Man",
-		"Darkie Boi",
-		"Antique Farm Equipment",
-		"Bootlip Bumbo",
-		"Casabooboo",
-		"Jigaboo",
-	]
-
-	let rand = nigger_phrases[Math.floor(Math.random() * nigger_phrases.length)];
-	channel.send(`Excuse me, that term is very offensive. Please use a more appropriate term such as ${rand}. Thank you!`)
-
-}
-
 exports.printCount = (channel) => {
 	let leaderboard_string = "♥🌈 Gay Leaderboards 🌈♥"
 
@@ -76,6 +57,26 @@ exports.printPersonalCount = (author, channel) => {
 		console.log(err)
 	})
 }
+
+niggerWatch = (channel) => {
+	let nigger_phrases = [
+		"3/5 Person",
+		"Sub-human Filth",
+		"Monkey Boi",
+		"Ape",
+		"Gorilla Man",
+		"Darkie Boi",
+		"Antique Farm Equipment",
+		"Bootlip Bumbo",
+		"Casabooboo",
+		"Jigaboo",
+	]
+
+	let rand = nigger_phrases[Math.floor(Math.random() * nigger_phrases.length)];
+	channel.send(`Excuse me, that term is very offensive. Please use a more appropriate term such as ${rand}. Thank you!`)
+
+}
+
 
 addNewGayCount = (user, username, callback) => {
 	let newGayCount = new GayCount({
