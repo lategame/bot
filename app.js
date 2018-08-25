@@ -33,6 +33,10 @@ client.on('message', message => {
 		gay_handler.printPersonalCount(message.author.id, message.channel)	
 	}
 
+	if (message.content.toLowerCase() === "!raise") {
+		gay_handler.raiseHand(message.channel)
+	}
+
 })
 
 client.login(process.env.TOKEN);

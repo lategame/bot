@@ -1,4 +1,5 @@
 const GayCount = require('./gaycount')
+let dickcount = 0
 
 exports.handleMessage = (message) => {
 	let { author, content } = message
@@ -13,6 +14,21 @@ exports.handleMessage = (message) => {
 		niggerWatch(message.channel)
 	}
 
+}
+
+exports.raiseHand = (channel) => {
+	let dickpic = "http://cdn-so.fantasti.cc/big/a/n/o/anonomoussss/anonomoussss_88f4ff.jpg"
+	dickcount++
+	let arms = require('./raise')	
+	let item = arms[Math.floor(Math.random()*arms.length)]
+
+	if (dickcount > 15) {
+		dickcount = 0
+		channel.send(dickpic)	
+	}
+	else {
+		channel.send(item)
+	}
 }
 
 exports.printCount = (channel) => {
