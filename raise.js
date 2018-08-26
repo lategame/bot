@@ -21,5 +21,9 @@ module.exports = [
 	"https://gyazo.com/e444c0ccfbfc5d351f6504894580e7c9",
 	"https://i.imgflip.com/1hsdu4.jpg",
 	"http://www.tntmagazine.com/media/content/_master/42467/images/swimmer.gif",
+        "Frigg off",
+        "Suck my dick, niglord",
+        "I ain't raising shit you fucking queer",
+        "Lick my taint",
 
 ]
