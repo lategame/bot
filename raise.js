@@ -11,4 +11,15 @@ module.exports = [
 	"https://cdn.discordapp.com/attachments/266495643671986176/482560423934296065/image.jpg",
 	"https://cdn.discordapp.com/attachments/266495643671986176/482560243457327114/image.jpg",
 	"https://cdn.discordapp.com/attachments/266495643671986176/482559954285232128/image0.jpg",
+	"https://cdn.discordapp.com/attachments/472164771454648320/483082306551152640/image0.jpg",
+	"https://media.discordapp.net/attachments/472164771454648320/483082717190291456/image0.jpg",
+	"https://media.discordapp.net/attachments/472164771454648320/483082978738569226/image1.jpg",
+	"https://media.discordapp.net/attachments/472164771454648320/483082979187621891/image0.jpg",	
+	"https://t3.ftcdn.net/jpg/00/19/21/22/240_F_19212267_SDP1Rpp5qm4w564e1by97Ugn7ST4hb90.jpg",
+	"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbmeNPVkDX_ThO4do1Q_3yqKhmdnNySOIwgq1xgOy6gb1vzFEV",	
+	"http://www.ncregister.com/images/uploads/McGovern-SECOND.jpg",
+	"https://gyazo.com/e444c0ccfbfc5d351f6504894580e7c9",
+	"https://i.imgflip.com/1hsdu4.jpg",
+	"http://www.tntmagazine.com/media/content/_master/42467/images/swimmer.gif",
+
 ]

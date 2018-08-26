@@ -17,7 +17,7 @@ exports.handleMessage = (message) => {
 }
 
 exports.raiseHand = (channel) => {
-	let dickpic = "http://cdn-so.fantasti.cc/big/a/n/o/anonomoussss/anonomoussss_88f4ff.jpg"
+	let dickpic = "Fuck you, faggot"
 	dickcount++
 	let arms = require('./raise')	
 	let item = arms[Math.floor(Math.random()*arms.length)]
