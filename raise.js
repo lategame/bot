@@ -25,5 +25,7 @@ module.exports = [
         "Suck my dick, niglord",
         "I ain't raising shit you fucking queer",
         "Lick my taint",
+        "I hate blacks",
+        "https://media.discordapp.net/attachments/472164771454648320/483505219968303104/20180826_221753.jpg?width=1562&height=1172"
 
 ]
