@@ -16,6 +16,26 @@ exports.handleMessage = (message) => {
 
 }
 
+exports.shlumCommand = (channel) => {
+	let shlumArray = [
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983197080485888/Screenshot_20180803-195633_Snapchat.jpg",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983197533339659/Screenshot_20180511-215403_Snapchat.jpg",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983321898647567/Screenshot_20171024-225505.png",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983323228372992/Screenshot_20170413-210051.png",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983323660255253/Screenshot_20170417-031116.png",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983447677304842/Screenshot_20170428-034400.png",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983448113774594/Screenshot_20170428-034355.png",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983475779403807/Snapchat-228853021.jpg",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983476395835393/received_1193570383993129.jpeg",
+		"https://cdn.discordapp.com/attachments/257101542308446210/484983476395835394/received_1193658187317682.jpeg",
+		"https://cdn.discordapp.com/attachments/266495643671986176/484982072751161344/Screenshot_20170920-132852.png",
+	]
+
+	let item = shlumArray[Math.floor(Math.random()*shlumArray.length)]
+
+	channel.send(item)
+}
+
 exports.raiseHand = (channel) => {
 	let dickpic = "Fuck you, faggot"
 	dickcount++
