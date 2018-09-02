@@ -37,10 +37,6 @@ client.on('message', message => {
 		gay_handler.raiseHand(message.channel)
 	}
 
-	if (message.content.toLocaleLowerCase() === "!shlum") {
-		gay_handler.shlumCommand(message.channel)
-	}
-
 })
 
 client.login(process.env.TOKEN);
