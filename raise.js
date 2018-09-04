@@ -26,6 +26,11 @@ module.exports = [
         "I ain't raising shit you fucking queer",
         "Lick my taint",
         "I hate blacks",
-        "https://media.discordapp.net/attachments/472164771454648320/483505219968303104/20180826_221753.jpg?width=1562&height=1172"
+        "https://media.discordapp.net/attachments/472164771454648320/483505219968303104/20180826_221753.jpg?width=1562&height=1172",
+        "Eat my cunt",
+        "Toss my salad, asshole",
+        "https://cdn.discordapp.com/attachments/472164771454648320/486338018916171777/image0.jpg",
+        "https://cdn.discordapp.com/attachments/472164771454648320/486339059006963712/image.jpg",
+        "Your parents hate you"
 
 ]
