@@ -37,6 +37,10 @@ client.on('message', message => {
 		gay_handler.raiseHand(message.channel)
 	}
 
+	if (message.content.toLowerCase() === "!shower") {
+		gay_handler.shower(message.channel)
+	}
+
 })
 
 client.login(process.env.TOKEN);

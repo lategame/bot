@@ -16,6 +16,19 @@ exports.handleMessage = (message) => {
 
 }
 
+exports.shower = (channel) => {
+	let showerArray = [
+		'https://cdn.discordapp.com/attachments/472164771454648320/504522483320487936/20181023_220816.jpg',
+		'https://cdn.discordapp.com/attachments/472164771454648320/504522191984001024/20181023_220700.jpg',
+		'https://cdn.discordapp.com/attachments/472164771454648320/504395691817304065/image0.jpg',
+		'https://cdn.discordapp.com/attachments/472164771454648320/504395163833991168/image0.jpg',
+	]
+
+	let item = showerArray[Math.floor(Math.random()*showerArray.length)]
+
+	channel.send(item)
+}
+
 exports.shlumCommand = (channel) => {
 	let shlumArray = [
 		"https://cdn.discordapp.com/attachments/257101542308446210/484983197080485888/Screenshot_20180803-195633_Snapchat.jpg",
