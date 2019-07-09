@@ -33,5 +33,5 @@ module.exports = [
   "https://cdn.discordapp.com/attachments/472164771454648320/486339059006963712/image.jpg",
   "Your parents hate you",
   "tater my tots, shitmuffin",
-
+  "https://cdn.discordapp.com/attachments/528354003898073100/585478161077370884/image0.jpg",
 ]
