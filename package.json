@@ -12,6 +12,6 @@
     "chalk": "^2.4.1",
     "discord.js": "^11.4.2",
     "dotenv": "^6.0.0",
-    "mongoose": "^4.9.1"
+    "mongoose": "^5.7.5"
   }
 }
